@@ -1,0 +1,60 @@
+PRIVACY POLICY
+==============
+
+UTC Timezone Converter Extension
+Version 3.2
+Last Updated: March 2026
+
+
+DATA COLLECTION
+---------------
+This extension does NOT collect, store, or transmit any personal user information.
+
+LOCAL STORAGE ONLY
+------------------
+This extension uses browser local storage exclusively for:
+- Saving your preferred timezone selection
+- Saving your panel visibility preference
+
+These preferences are stored only on your device and are NEVER:
+- Transmitted to any server
+- Shared with third parties
+- Used for any analytics or tracking
+
+
+PERMISSIONS EXPLAINED
+---------------------
+The extension requires the following permissions for core functionality:
+
+• Host Permissions (<all_urls>): Required to detect and convert times displayed on any webpage you visit. This allows the extension to read time text on pages you view.
+
+• Storage: Used only to save your personal preferences (selected timezone, panel visibility) locally in your browser.
+
+• Clipboard Write: Allows you to copy converted UTC times to your clipboard when you choose to do so.
+
+• Active Tab: Used to communicate with the current webpage to show or hide the time panel.
+
+
+NO TRACKING
+-----------
+We do not use:
+- Analytics or tracking scripts
+- Cookies
+- Web beacons
+- Third-party services
+- Remote servers
+
+
+CHILDREN'S PRIVACY
+------------------
+This extension does not knowingly collect information from children under 13.
+
+
+CONTACT
+-------
+For privacy questions, contact: [ackursyns@gmail.com]
+
+
+UPDATES
+-------
+This policy may be updated occasionally. Continued use of the extension constitutes acceptance of this policy.
