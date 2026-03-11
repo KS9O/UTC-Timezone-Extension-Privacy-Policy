@@ -1,60 +1,128 @@
-PRIVACY POLICY
-==============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - UTC Timezone Converter</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+        }
 
-UTC Timezone Converter Extension
-Version 3.2
-Last Updated: March 2026
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
 
-DATA COLLECTION
----------------
-This extension does NOT collect, store, or transmit any personal user information.
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
 
-LOCAL STORAGE ONLY
-------------------
-This extension uses browser local storage exclusively for:
-- Saving your preferred timezone selection
-- Saving your panel visibility preference
+        h1 {
+            font-size: 2.25rem;
+            margin: 0;
+            color: #111827;
+            text-transform: uppercase;
+            letter-spacing: -0.025em;
+        }
 
-These preferences are stored only on your device and are NEVER:
-- Transmitted to any server
-- Shared with third parties
-- Used for any analytics or tracking
+        .meta {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
 
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
 
-PERMISSIONS EXPLAINED
----------------------
-The extension requires the following permissions for core functionality:
+        p, ul {
+            margin-bottom: 20px;
+        }
 
-• Host Permissions (<all_urls>): Required to detect and convert times displayed on any webpage you visit. This allows the extension to read time text on pages you view.
+        ul {
+            padding-left: 20px;
+        }
 
-• Storage: Used only to save your personal preferences (selected timezone, panel visibility) locally in your browser.
+        li {
+            margin-bottom: 10px;
+        }
 
-• Clipboard Write: Allows you to copy converted UTC times to your clipboard when you choose to do so.
+        .highlight-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 30px 0;
+            font-weight: 500;
+        }
 
-• Active Tab: Used to communicate with the current webpage to show or hide the time panel.
+        .permission-item {
+            display: block;
+            margin-bottom: 15px;
+        }
 
+        .permission-name {
+            font-weight: bold;
+            color: #374151;
+            display: inline-block;
+            min-width: 150px;
+        }
 
-NO TRACKING
------------
-We do not use:
-- Analytics or tracking scripts
-- Cookies
-- Web beacons
-- Third-party services
-- Remote servers
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: #6b7280;
+            text-align: center;
+        }
 
+        @media (max-width: 600px) {
+            .container { padding: 30px 20px; }
+            h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
 
-CHILDREN'S PRIVACY
-------------------
-This extension does not knowingly collect information from children under 13.
+<div class="container">
+    <header>
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            UTC Timezone Converter Extension | Version 3.2<br>
+            Last Updated: March 2026
+        </div>
+    </header>
 
+    <div class="highlight-box">
+        This extension does NOT collect, store, or transmit any personal user information.
+    </div>
 
-CONTACT
--------
-For privacy questions, contact: [ackursyns@gmail.com]
-
-
-UPDATES
--------
-This policy may be updated occasionally. Continued use of the extension constitutes acceptance of this policy.
+    <h2>Local Storage Usage</h2>
+    <p>This extension uses browser local storage exclusively to improve your experience. Your preferences are stored only
